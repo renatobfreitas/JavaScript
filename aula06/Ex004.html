@@ -13,9 +13,10 @@
 </head>
 <body>
     <script>
-        var nome = window.prompt ('Qual é o seu nome? ')
-        document.writeln (`Olá <strong> ${nome} </strong>. Seu nome tem ${nome.length} letras.`)
-        document.writeln (`Seu nome em letras maiúsculas ${nome.toUpperCase}.`)
+        var nome = window.prompt ('Qual é o seu nome? ') // prompt é caixa para lancar valores
+        document.writeln (`Olá <strong> ${nome} </strong>. Seu nome tem ${nome.length} letras.`); // .length é quantidade de caracteres
+        document.writeln (`Seu nome em letras maiúsculas é ${nome.toUpperCase()}.`);// letras MAIUSCULA 
+        document.writeln (`Seu nome em letras minúsculas é "${nome.toLowerCase()}"`); // letras minuscula
     </script>
 </body>
 </html>
