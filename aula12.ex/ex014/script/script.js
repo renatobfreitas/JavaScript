@@ -10,6 +10,7 @@ function carregar() {
         img.src = 'img/manha.png'
         document.body.style.background = '#f4e0c2'
         txt.innerHTML = 'Bom dia!'
+        document.getElementById('txt').style.color = 'black'
     } else if (hora >= 12 && hora < 18) {
         //boa tarde
         img.src = 'img/tarde.png'
