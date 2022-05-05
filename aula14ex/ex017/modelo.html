@@ -4,19 +4,22 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Modelo de Exercício</title>
+    <title>Tabuada</title>
     <link rel="stylesheet" href="estilo.css">
 </head>
 <body>
     <header>
-        <h1>Titulo</h1>
+        <h1>Tabada</h1>
     </header>
     <section>
         <div>
-            teste...
+            <!-- <p>Escolha um operador: <input type="radio" name="op" id="m" checked>[ x ] <input type="radio" name="op" id="a">[ + ] <input type="radio" name="op" id="s">[ - ] <input type="radio" name="op" id="d">[ / ]</p> -->
+            <p>Número: <input type="number" name="num" id="num"> <input type="button" value="Gerar Tábuada" onclick="tabuada()"></p>
         </div>
         <div>
-            olá
+            <select name="tabuada" id="seltab" size="10">
+                <option value="v0">Insira um número</option>
+            </select>
         </div>
     </section>
     <footer>
