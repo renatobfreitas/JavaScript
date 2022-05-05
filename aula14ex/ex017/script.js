@@ -1,10 +1,6 @@
 function tabuada() {
     let num = document.getElementById('num')
-    let tab = document.getElementById('seltab')
-    let opm = document.getElementById('m')
-    let opa = document.getElementById('a')
-    let ops= document.getElementById('s')
-    let opd = document.getElementById('d')
+    let tab = document.getElementById('seltab') 
     
     if (num.value.length == 0) {
         window.alert('[ERRO] Por favor, verificar os dados!')
